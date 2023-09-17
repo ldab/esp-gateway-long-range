@@ -153,6 +153,13 @@ $ git clone --recursive https://github.com/ldab/esp-gateway-long-range.git
 
 - After successfully obtaining ESP-IDF, please switch its version to the `release/v4.4.2` branch.
 
+```
+cd ~/esp/esp-idf
+git fetch
+git checkout release/v4.4
+git pull 
+git submodule update --init --recursive
+```
 
 ## <span id = "5">5. Configuration</span>
 
